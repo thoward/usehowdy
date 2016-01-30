@@ -1,0 +1,10 @@
+{
+  "name": "usehowdy",
+  "version": "0.0.1",
+  "install": "install -b usehowdy.sh ${PREFIX:-/usr/local}/bin/usehowdy",
+  "scripts": [ "usehowdy.sh" ],
+  "dependencies": {
+    "thoward/howdy": "master"
+  }
+}
+
